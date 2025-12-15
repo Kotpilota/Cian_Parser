@@ -1,8 +1,3 @@
-"""
-Парсер ЖК Бристоль (CIAN)
-Возвращает JSON с данными о ЖК и квартирах
-"""
-
 import re
 import json
 import time

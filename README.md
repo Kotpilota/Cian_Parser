@@ -20,8 +20,8 @@
 
 ```powershell
 # Клонирование
-git clone <repository-url>
-cd Cian
+git clone https://github.com/Kotpilota/Cian_Parser.git
+cd Cian_Parser
 
 # Виртуальное окружение
 python -m venv .venv
@@ -36,7 +36,7 @@ playwright install chromium
 
 ```bash
 # Клонирование
-git clone <>
+git clone https://github.com/Kotpilota/Cian_Parser.git
 cd Cian_Parser
 
 # Виртуальное окружение
@@ -127,7 +127,3 @@ print(f"Квартир: {result.flats_count}")
 for flat in result.flats:
     print(f"{flat.rooms}-комн., {flat.area} м2, {flat.price:,} руб.")
 ```
-
-## Лицензия
-
-MIT
